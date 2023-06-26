@@ -35,7 +35,30 @@ class Order: ObservableObject, Codable {
     @Published var zip = ""
     
     var hasValidAdress: Bool {
-         !(name.isEmpty || streetAdress.isEmpty || city.isEmpty || zip.isEmpty)
+        if name.isEmpty || streetAdress.isEmpty || city.isEmpty || zip.isEmpty {
+            return false
+        }
+        
+        // challenge 1
+        if onlySpaces(texts: [name, streetAdress, city, zip]) {
+            return false
+        }
+        
+        return true
+    }
+    
+    // challenge 1
+    func onlySpaces(texts: [String]) -> Bool {
+        var isOnlySpace = false
+        
+        for text in texts {
+            let trimmed = text.trimmingCharacters(in: .whitespaces)
+            if trimmed.isEmpty {
+                isOnlySpace = true
+            }
+        }
+        
+        return isOnlySpace
     }
     
     var cost: Double {

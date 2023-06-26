@@ -40,8 +40,8 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationTitle("Cupcake Corner")
         }
-        .navigationTitle("Cupcake Corner")
     }
 }
 
