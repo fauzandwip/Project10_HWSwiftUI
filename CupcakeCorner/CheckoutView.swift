@@ -9,8 +9,10 @@ import SwiftUI
 
 struct CheckoutView: View {
     @ObservedObject var order: Order
-    @State private var confirmationMessage = ""
-    @State private var showingConfirmation = false
+    
+    @State private var titleAlert = ""
+    @State private var messageAlert = ""
+    @State private var showingAlert = false
     
     var body: some View {
         ScrollView {
@@ -48,16 +50,16 @@ struct CheckoutView: View {
         }
         .navigationTitle("Check Out")
         .navigationBarTitleDisplayMode(.inline)
-        .alert("Thank you!", isPresented: $showingConfirmation) {
+        .alert(titleAlert, isPresented: $showingAlert) {
             Button("OK") {}
         } message: {
-            Text(confirmationMessage)
+            Text(messageAlert)
         }
     }
     
     func placeOrder() async {
         guard let encoded = try? JSONEncoder().encode(order) else {
-            print("Failed to encoded order.")
+            showAlert(title: "Error", message: "Failed to encoded order.")
             return
         }
         
@@ -70,11 +72,17 @@ struct CheckoutView: View {
             let (data, _) = try await URLSession.shared.upload(for: request, from: encoded)
             
             let decode = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decode.quantity)x \(Order.types[decode.type]) cupcakes is on its way!"
-            showingConfirmation = true
+            showAlert(title: "Thank you!", message: "Your order for \(decode.quantity)x \(Order.types[decode.type]) cupcakes is on its way!")
         } catch {
-            print("Failed checkout, \(error)")
+            showAlert(title: "Error", message: "There is no internet connection.")
         }
+    }
+    
+    // challenge 2
+    func showAlert(title: String, message: String) {
+        titleAlert = title
+        messageAlert = message
+        showingAlert = true
     }
 }
 
