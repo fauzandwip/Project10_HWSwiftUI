@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5928BC2A497E6800B84EE1 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */; };
 		7B5CFBA72A482B8200A4268F /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */; };
 		7B5CFBA92A482B8200A4268F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBA82A482B8200A4268F /* ContentView.swift */; };
 		7B5CFBAB2A482B8300A4268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5CFBAA2A482B8300A4268F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		7B5CFBA32A482B8200A4268F /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		7B5CFBA82A482B8200A4268F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,9 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */,
+				7B5CFBBF2A49625A00A4268F /* Order.swift */,
 				7B5CFBA82A482B8200A4268F /* ContentView.swift */,
 				7B5CFBC12A49662100A4268F /* AdressView.swift */,
-				7B5CFBBF2A49625A00A4268F /* Order.swift */,
+				7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */,
 				7B5CFBB82A494AF600A4268F /* Introduction */,
 				7B5CFBAA2A482B8300A4268F /* Assets.xcassets */,
 				7B5CFBAC2A482B8300A4268F /* Preview Content */,
@@ -171,6 +174,7 @@
 				7B5CFBA72A482B8200A4268F /* CupcakeCornerApp.swift in Sources */,
 				7B5CFBBC2A49585900A4268F /* LoadingImage.swift in Sources */,
 				7B5CFBC02A49625A00A4268F /* Order.swift in Sources */,
+				7B5928BC2A497E6800B84EE1 /* CheckoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
