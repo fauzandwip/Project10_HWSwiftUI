@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B5928BC2A497E6800B84EE1 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */; };
+		7B5928BE2A49CA9F00B84EE1 /* OldOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5928BD2A49CA9F00B84EE1 /* OldOrder.swift */; };
 		7B5CFBA72A482B8200A4268F /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */; };
 		7B5CFBA92A482B8200A4268F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBA82A482B8200A4268F /* ContentView.swift */; };
 		7B5CFBAB2A482B8300A4268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5CFBAA2A482B8300A4268F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		7B5928BD2A49CA9F00B84EE1 /* OldOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldOrder.swift; sourceTree = "<group>"; };
 		7B5CFBA32A482B8200A4268F /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		7B5CFBA82A482B8200A4268F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				7B5CFBA62A482B8200A4268F /* CupcakeCornerApp.swift */,
 				7B5CFBBF2A49625A00A4268F /* Order.swift */,
+				7B5928BD2A49CA9F00B84EE1 /* OldOrder.swift */,
 				7B5CFBA82A482B8200A4268F /* ContentView.swift */,
 				7B5CFBC12A49662100A4268F /* AdressView.swift */,
 				7B5928BB2A497E6800B84EE1 /* CheckoutView.swift */,
@@ -170,6 +173,7 @@
 				7B5CFBB52A49495700A4268F /* PublishedCodable.swift in Sources */,
 				7B5CFBA92A482B8200A4268F /* ContentView.swift in Sources */,
 				7B5CFBBE2A495B6E00A4268F /* ValidatingForms.swift in Sources */,
+				7B5928BE2A49CA9F00B84EE1 /* OldOrder.swift in Sources */,
 				7B5CFBB72A494AEB00A4268F /* URLSessionView.swift in Sources */,
 				7B5CFBA72A482B8200A4268F /* CupcakeCornerApp.swift in Sources */,
 				7B5CFBBC2A49585900A4268F /* LoadingImage.swift in Sources */,
