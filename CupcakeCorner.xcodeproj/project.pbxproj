@@ -14,6 +14,7 @@
 		7B5CFBB52A49495700A4268F /* PublishedCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBB42A49495600A4268F /* PublishedCodable.swift */; };
 		7B5CFBB72A494AEB00A4268F /* URLSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBB62A494AEB00A4268F /* URLSessionView.swift */; };
 		7B5CFBBC2A49585900A4268F /* LoadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBBB2A49585900A4268F /* LoadingImage.swift */; };
+		7B5CFBBE2A495B6E00A4268F /* ValidatingForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CFBBD2A495B6E00A4268F /* ValidatingForms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7B5CFBB42A49495600A4268F /* PublishedCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedCodable.swift; sourceTree = "<group>"; };
 		7B5CFBB62A494AEB00A4268F /* URLSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionView.swift; sourceTree = "<group>"; };
 		7B5CFBBB2A49585900A4268F /* LoadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImage.swift; sourceTree = "<group>"; };
+		7B5CFBBD2A495B6E00A4268F /* ValidatingForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingForms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7B5CFBB62A494AEB00A4268F /* URLSessionView.swift */,
 				7B5CFBBB2A49585900A4268F /* LoadingImage.swift */,
+				7B5CFBBD2A495B6E00A4268F /* ValidatingForms.swift */,
 				7B5CFBB42A49495600A4268F /* PublishedCodable.swift */,
 			);
 			path = Introduction;
@@ -156,6 +159,7 @@
 			files = (
 				7B5CFBB52A49495700A4268F /* PublishedCodable.swift in Sources */,
 				7B5CFBA92A482B8200A4268F /* ContentView.swift in Sources */,
+				7B5CFBBE2A495B6E00A4268F /* ValidatingForms.swift in Sources */,
 				7B5CFBB72A494AEB00A4268F /* URLSessionView.swift in Sources */,
 				7B5CFBA72A482B8200A4268F /* CupcakeCornerApp.swift in Sources */,
 				7B5CFBBC2A49585900A4268F /* LoadingImage.swift in Sources */,
