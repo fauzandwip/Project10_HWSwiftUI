@@ -27,6 +27,8 @@ struct CheckoutView: View {
                 }
                 .frame(height: 233)
                 .padding(.horizontal, 20)
+                // project 15 - Accessibility VoiceOver
+                .accessibilityHidden(true)
                 
                 HStack {
                     Text("Your total is")
